@@ -21,23 +21,24 @@ int main()
     cin>>isim;
     //Ekrana "soyadinizi girin" yazdirir.
     cout<<"soyadinizi girin:";
+    //Kullanicidan soyadini girmesini ister.
     cin>>soyadi;
-     //Kullanicidan soyadini girmesini ister.
-    cout<<"Hosgeldin ";
     //Ekrana "Hosgeldin" yazdirir.
-    cout<<isim<<" ";
+    cout<<"Hosgeldin ";
     //Ekrana kullanicinin ismini yazdirir ve bosluk birakir.
-    cout<<soyadi;
+    cout<<isim<<" ";
     //Ekrana kullanicinin soyadini yazdirir.
+    cout<<soyadi;
     string TCKN;
     //Ekrana "TCKN girin:" yazdirir.
     cout<<"\nTCKN girin:";
     //Kullanicidan TCKN girmesini ister.
     cin>>TCKN;
-    //"Ekrana Dogum Tarihinizi Girin" yazdirir.
+    //Ekrana "Dogum Tarihinizi Girin" yazdirir.
     cout<<"Dogum Tarihinizi Girin ";
+    //Ekrana "Dogum Tarihinizi Girdiniz" yazdirir.
     cin>>dogumTarihiniz;
-     //"Ekrana Dogum Tarihinizi Girdiniz" yazdirir.
+    //Ekrana "Dogum Tarihinizi Girdiniz" yazdirir.
     cout<<"Dogum Tarihinizi Girdiniz.";
     pc=1;
     py=2;
@@ -62,7 +63,7 @@ int main()
             cin>>pc;
             //Cekilen Tutarin bakiyeden buyuk olmasini engeller.
             if(toplam<pc){
-
+                //Ekrana "Yetersiz Bakiye" yazdirir.
                 cout<<"Yetersiz Bakiye";
              }
             else{
